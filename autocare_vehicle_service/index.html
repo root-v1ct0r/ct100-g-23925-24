@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AutoCare Garage vehicle maintenance and repair service booking.">
+  <title>AutoCare Garage | Vehicle Care Made Simple</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">AC</span><span>AutoCare <small>GARAGE</small></span></a>
+    <nav aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="service.html">Book a Service</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">TRUSTED VEHICLE CARE</p>
+        <h1>Keep your vehicle<br><span>running at its best.</span></h1>
+        <p>Choose the services you need, get an instant estimate, and send your booking request online.</p>
+        <a class="button button-primary" href="service.html">Book a Service <span aria-hidden="true">→</span></a>
+        <div class="hero-proof"><span>✓ Transparent estimates</span><span>✓ Skilled technicians</span></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of a vehicle in a modern garage">
+        <div class="art-sun"></div><div class="art-grid"></div>
+        <div class="car">
+          <div class="car-window"></div><div class="car-body"></div>
+          <div class="wheel wheel-left"></div><div class="wheel wheel-right"></div>
+          <div class="headlight"></div>
+        </div>
+        <div class="art-label"><span class="status-dot"></span> Ready for the road</div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><p class="eyebrow">OUR SERVICES</p><h2>Care for every journey</h2><p>Choose one or more services to get a combined estimate.</p></div>
+      <div class="service-cards">
+        <article class="info-card"><span class="card-icon">⚙</span><h3>Engine Oil Change</h3><p>Routine oil replacement to support engine performance.</p><strong>KSh 3,000</strong></article>
+        <article class="info-card"><span class="card-icon">◉</span><h3>Brake Inspection</h3><p>Inspection of key braking components for safer driving.</p><strong>KSh 2,000</strong></article>
+        <article class="info-card"><span class="card-icon">⌁</span><h3>Computer Diagnosis</h3><p>Electronic checks to help identify vehicle faults.</p><strong>KSh 3,500</strong></article>
+        <article class="info-card"><span class="card-icon">✥</span><h3>Tyre Balancing</h3><p>Balance checks to improve wheel rotation and ride comfort.</p><strong>KSh 2,000</strong><span class="tag">Individual requirement</span></article>
+      </div>
+      <div class="cta-strip"><div><h2>Ready to book your vehicle in?</h2><p>Complete the form and receive an estimate before submitting.</p></div><a class="button button-light" href="service.html">Start Booking <span aria-hidden="true">→</span></a></div>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> AutoCare Garage</span><span>Reliable care. Clear estimates.</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
